@@ -24,6 +24,25 @@ npm -v
 npm install
 
 npx playwright install
+npx playwright test
+npx playwright test --headed
+npx playwright test --project=chromium
+npx playwright test --headed --project=chromium --workers=1 --retries=0
+npx playwright test --project=chromium 2>&1
+npx playwright test --headed --workers=1
+.
+├── playwright.config.ts
+├── package.json
+├── tsconfig.json
+├── tests/
+│   └── example.spec.ts
+└── README.md
+
+👨‍🎓 Student Details
+
+Name: Malith Induwara
+IT Number: IT23562974
+Module: ITPM Assignment 1
 
 
 Name: Malith Induwara
